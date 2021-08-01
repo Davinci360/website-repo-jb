@@ -9,3 +9,36 @@
     <script src="script.js"></script> 
   </body>
 </html> 
+
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Jason's Website</title>
+</head>
+<html lang="en">
+<body>
+<h1>WELCOME TO JASON'S (SE-080921) PRE-WORK DEMO WEBSITE</h1>
+    <h2>LETS TRY SOME COOL STUFF</h2>
+        <P>insert text here</P>
+    <h2>WHATS COOLER THAN COOL?</h2>
+        <P>insert text here</P>
+    <h2>ICE COLD</h2>
+        <p>insert text here</p>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="Whatevs":</p>
+
+<p id="Whatevs"></p>
+
+<script>
+
+document.getElementById("Whatevs").innerHTML = "HIGHLIGHT ME!";
+//color changer button function
+function myFunction() {
+  document.getElementById("Whatevs").style.fontSize = "25px"; 
+  document.getElementById("Whatevs").style.color = "red";
+  document.getElementById("Whatevs").style.backgroundColor = "yellow";        
+}
+</script> 
+<!–– Button here ––>
+<button type="button" onclick="myFunction()">HIGHLIGHTER BUTTON!</button>
+</body>
+</html>
